@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<launch>
+    <node name="tjc" pkg="tjc_screen" type="tjc_screen_node" >
+		<param name="port" type="str" value="/dev/ttyUSB0" />
+		<param name="baud" type="int" value="9600" />
+	</node>
+</launch>
+
+#####
+launch文件就是可执行文件，依赖于src里面的.cpp文件（通俗的说就是src里面的.cpp文件编译后生成launch文件和）。
+CMakeLists.txt和package.xml文件是工作空间编译时自动生成的配置文件（用户不需要管）。
+<node>标签指定一个ROS 节点，这是最常见的roslaunch标签。pkg是指节点包（文件）。type是指节点类型，必须有一个具有相同名称的相应可执行文件与其对应。
