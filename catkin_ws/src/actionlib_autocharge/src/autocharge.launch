@@ -1,0 +1,6 @@
+<launch>
+<node name="autocharge" pkg="actionlib_autocharge"
+      type="autocharge_server.cpp" outputp"" />
+<node name="autocharge_client" pkg="actionlib_autocharge"
+      type="autocharge_client.cpp" outputp"" />
+<launch/>

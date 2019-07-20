@@ -1,0 +1,8 @@
+#goal defintion
+int32 goal_ID 
+---
+#result defintion
+geometry_msgs/Pose final_pose
+---
+#feedback
+geometry_msgs/Pose current_pose

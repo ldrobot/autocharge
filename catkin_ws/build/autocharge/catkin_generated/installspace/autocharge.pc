@@ -1,0 +1,8 @@
+prefix=/home/lee/catkin_ws/install
+
+Name: autocharge
+Description: Description of autocharge
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lee/catkin_ws/install/lib 
+Requires: 
